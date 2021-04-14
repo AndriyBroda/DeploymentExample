@@ -9,6 +9,7 @@ function App() {
   return (
     <div className='App'>
       <BrowserRouter>
+        <span>Heeyy! That's deploy example) Have a good day!</span>
         <Link to='/'>Some page</Link>
         <Link to='/test'>Test 1</Link>
         <Switch>
