@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/AndriyBroda/DeploymentExample.git/static/css/main.11cd30db.chunk.css",
+    "main.js": "/AndriyBroda/DeploymentExample.git/static/js/main.4e8ed482.chunk.js",
+    "main.js.map": "/AndriyBroda/DeploymentExample.git/static/js/main.4e8ed482.chunk.js.map",
+    "runtime-main.js": "/AndriyBroda/DeploymentExample.git/static/js/runtime-main.d3e22153.js",
+    "runtime-main.js.map": "/AndriyBroda/DeploymentExample.git/static/js/runtime-main.d3e22153.js.map",
+    "static/js/2.678f68e2.chunk.js": "/AndriyBroda/DeploymentExample.git/static/js/2.678f68e2.chunk.js",
+    "static/js/2.678f68e2.chunk.js.map": "/AndriyBroda/DeploymentExample.git/static/js/2.678f68e2.chunk.js.map",
+    "static/js/3.a329685a.chunk.js": "/AndriyBroda/DeploymentExample.git/static/js/3.a329685a.chunk.js",
+    "static/js/3.a329685a.chunk.js.map": "/AndriyBroda/DeploymentExample.git/static/js/3.a329685a.chunk.js.map",
+    "index.html": "/AndriyBroda/DeploymentExample.git/index.html",
+    "static/css/main.11cd30db.chunk.css.map": "/AndriyBroda/DeploymentExample.git/static/css/main.11cd30db.chunk.css.map",
+    "static/js/2.678f68e2.chunk.js.LICENSE.txt": "/AndriyBroda/DeploymentExample.git/static/js/2.678f68e2.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d3e22153.js",
+    "static/js/2.678f68e2.chunk.js",
+    "static/css/main.11cd30db.chunk.css",
+    "static/js/main.4e8ed482.chunk.js"
+  ]
+}
