@@ -19,10 +19,9 @@ const defaultValues: UserFormValues = {
   firstName: '',
   lastName: '',
   email: ''
-}
+};
 
 export const NotFound = () => {
-
   const dispatch = useDispatch();
 
   const hotelsData = useSelector(allHotelsSelector);
@@ -33,8 +32,8 @@ export const NotFound = () => {
       firstName: 'fdsdf',
       lastName: 'dfgdfgdfg',
       password: 'Aa123456'
-    })
-  }
+    });
+  };
 
   console.log(hotelsData);
 
@@ -50,10 +49,10 @@ export const NotFound = () => {
       localStorage.setItem('refresh_token', refresh_token);
 
       console.log(res.data);
-    } catch(err) {
+    } catch (err) {
       console.log(err);
     }
-  }
+  };
 
   useEffect(() => {
     dispatch(loadHotels());
@@ -63,7 +62,8 @@ export const NotFound = () => {
   // console.log(data);
 
   const createHotel1 = () => {
-    dispatch(createHotel({
+    dispatch(
+      createHotel({
         name: 'aaadadkbkjbbjkbjkbjkjkb---',
         description: 'aaa',
         phone: '38080664479770',
@@ -80,8 +80,8 @@ export const NotFound = () => {
             longtitude: '0'
           }
         }
-      }
-    ))
+      })
+    );
     // addHotel({
     //   name: 'aaadad',
     //   description: 'aaa',
@@ -100,7 +100,7 @@ export const NotFound = () => {
     //     }
     //   }
     // })
-  }
+  };
   return (
     <div>
       <button onClick={createHotel1}>Create hotel</button>
@@ -109,18 +109,20 @@ export const NotFound = () => {
       <Formik
         initialValues={defaultValues}
         validationSchema={UserFormSchema}
-        onSubmit={(val) => {
+        onSubmit={val => {
           console.log(val);
         }}
-        >
+      >
         <Form>
           <FormikInput name='firstName' label='First Name' />
-          <FormikInput name='lastName' label='Last Name'/>
-          <FormikInput name='email' label='Email'/>
+          <FormikInput name='lastName' label='Last Name' />
+          <FormikInput name='email' label='Email' />
 
           <button>Send</button>
         </Form>
       </Formik>
+
+      <span>{process.env.REACT_APP_VERY_IMPORTANT_TEXT}</span>
     </div>
   );
 };
